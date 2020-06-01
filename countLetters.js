@@ -22,4 +22,3 @@ const countLetters = function(word) {
   } return numLetter;
 };
 
-console.log(countLetters('lighthouse labs is the place to be'));
