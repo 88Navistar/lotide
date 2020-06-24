@@ -7,18 +7,24 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters = function(word) {
-  let numLetter = {};
-  for (const letter of word) {
-    if (letter === ' ') {
+const countLetters = function(insertString) {
+  let counter = {};
+
+  for (let value of insertString) {
+    if (value === ' ') {
       continue;
-    } else if (!numLetter[letter]) {
-      numLetter[letter] = 1;
-  
-    } else {
-      numLetter[letter] += 1;
-    }
-    
-  } return numLetter;
+    }else counter[value] = (counter[value] || 0) + 1;
+  }
+  return counter;
 };
+countLetters("lighthouse in the house");
+console.log(countLetters("lighthouse in the house"));
+
+// Old If statement before refactor
+// if (value === ' ') {
+//   continue;
+// } else if (!counter[value]) {
+//   counter[value] = 1
+//} else {
+///   counter[value] += 1
 
