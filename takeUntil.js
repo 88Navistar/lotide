@@ -20,12 +20,3 @@ console.log(results2);
 // [1, 2, 5, 7, 2]
 // ---
 //   ['I\'ve', 'been', 'to', 'Hollywood']
-
-// let negFound = false;
-// const results1 = data1.filter((item) => {
-//   if(item > 0 && !negFound) {
-//     return item
-//   } else {
-//     negFound = true
-//   }
-// })
