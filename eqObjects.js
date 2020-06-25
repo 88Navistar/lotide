@@ -23,7 +23,7 @@ const eqObjects = function(object1, object2) {
   let keys1 = Object.keys(object1);
   let keys2 = Object.keys(object2);
   let result = false;
-  if (Object.keys(object1).length === Object.keys(object2).length) {
+  if (keys1.length === keys2.length) {
     keys1.forEach(element => {
       if (keys2.includes(element) && object1[element] === object2[element]) {
         result = true;
