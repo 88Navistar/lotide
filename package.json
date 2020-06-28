@@ -1,0 +1,28 @@
+{
+  "name": "@rwallator/lotide",
+  "version": "1.0.0",
+  "description": "LHL Lotide Project",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/88Navistar/lotide.git"
+  },
+  "author": "RW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/88Navistar/lotide/issues"
+  },
+  "homepage": "https://github.com/88Navistar/lotide#readme"
+}
