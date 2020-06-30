@@ -14,4 +14,4 @@ const countOnly = function(allItems, itemsToCount) {
   return results;
 };
 
-module.export = countOnly;
+module.exports = countOnly;
